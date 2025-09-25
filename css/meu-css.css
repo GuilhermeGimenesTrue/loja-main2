@@ -1,0 +1,69 @@
+body{
+    background-image: url(../imagens/escama.jpg);
+    background-repeat: round;
+    font-family: "Funnel Display", sans-serif;
+}
+
+main{
+   background-color: black;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3%;
+}
+
+h1{
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+}
+
+table {
+    clear: both;
+    border-spacing: 1;
+    font-size: 1.2em;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: 80%;
+    padding: 1%;
+    overflow-x: auto;
+;
+}
+
+th {
+    border: 10%;
+    text-align: center;
+    font-size: 200%;
+    padding: 1%;
+
+}
+td , th{
+    text-align: center;
+    border: 10%;
+    text-align: center;
+    padding: 1%;
+}
+
+.logo{
+
+    width: 10%;
+
+}
+
+.botao{
+    background-color: #BC0F0F;
+    border-color: #BC0F0F;
+}
+
+.botaoapagar{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+    
+}
