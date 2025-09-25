@@ -50,6 +50,12 @@ td , th{
     padding: 1%;
 }
 
+p{
+    font-size: 1rem;
+    font-weight: 200;
+
+}
+
 .logo{
 
     width: 10%;
@@ -66,4 +72,24 @@ td , th{
     border-color: #0d6efd;
     color: white;
     
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.maintext {  
+	font-optical-sizing: auto;  
+	font-weight: 200;  
+	font-style: normal;
+	text-align: left;   
+	line-height: 1.5;  
+	color: rgb(255, 255, 255);
+}
+
+.right{
+	float: right;
+	padding: 1%;
+	
 }
