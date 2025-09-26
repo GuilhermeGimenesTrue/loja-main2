@@ -2,6 +2,7 @@ body{
     background-image: url(../imagens/escama.jpg);
     background-repeat: round;
     font-family: "Funnel Display", sans-serif;
+    color: white;
 }
 
 main{
@@ -93,3 +94,10 @@ p{
 	padding: 1%;
 	
 }
+
+.left{
+	float: left;
+	padding: 1%;
+	
+}
+

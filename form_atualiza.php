@@ -11,14 +11,14 @@
 
                 <?php
                     
-                    echo "Valor passado: $id";
+
 
                     require 'conexao.php';
                     $sql = "SELECT * FROM produtos WHERE id = $id";
                     $stmt = $pdo->query($sql);
                     $produto = $stmt->fetch(PDO::FETCH_ASSOC);
 
-                    print_r($produto);
+                    
 
                 /*    while ($produto = $stmt->fetch(PDO::FETCH_ASSOC)) {
                             echo "ID: " . $produto['id'] . "<br>";
@@ -49,3 +49,4 @@
     </main>
 </body>
 </html>
+

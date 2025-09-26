@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 25/09/2025 às 02:38
+-- Tempo de geração: 26/09/2025 às 21:18
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -42,7 +42,21 @@ CREATE TABLE `produtos` (
 --
 
 INSERT INTO `produtos` (`id`, `nome`, `preco`, `quantidade`) VALUES
-(2, 'Mordaikeinen\'s Tome of Foes', 200.00, 5);
+(3, 'Espada Longa', 5.00, 1),
+(4, 'Escudo', 10.00, 1),
+(5, 'Azagaia', 0.50, 5),
+(6, 'Mochila', 9.00, 1),
+(7, 'Pé de Cabra', 5.00, 1),
+(8, 'Martelo', 3.00, 1),
+(9, 'Píton', 2.00, 10),
+(10, 'Tocha', 1.00, 10),
+(11, 'Caixa de Fogo', 6.00, 1),
+(12, 'Ração', 4.00, 10),
+(13, 'Cantil', 7.00, 1),
+(14, 'Corda', 19.00, 15),
+(15, 'Moeda de Ouro', 1.00, 92),
+(16, 'Cota de Malha', 75.00, 1),
+(17, 'Simbolo Sagrado', 5.00, 1);
 
 --
 -- Índices para tabelas despejadas
@@ -62,7 +76,7 @@ ALTER TABLE `produtos`
 -- AUTO_INCREMENT de tabela `produtos`
 --
 ALTER TABLE `produtos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
